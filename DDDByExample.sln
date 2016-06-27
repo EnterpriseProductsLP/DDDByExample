@@ -1,10 +1,50 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SalesContext", "Erp.SalesContext\Erp.SalesContext.csproj", "{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sales Context", "Sales Context", "{D89A37E4-5729-496C-9693-4059EA9154D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SalesContext.UnitTests", "Erp.SalesContext.UnitTests\Erp.SalesContext.UnitTests.csproj", "{CE58F54F-9F5F-4453-9D1D-3933511FF954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support Context", "Support Context", "{92865F0D-FD7B-4F9B-97F8-91898DB886EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SupportContext", "Erp.SupportContext\Erp.SupportContext.csproj", "{AE744354-9D6A-4B9B-AE91-166CE1A42EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SupportContext.UnitTests", "Erp.SupportContext.UnitTests\Erp.SupportContext.UnitTests.csproj", "{5081C879-2AEC-4B63-BB13-1868D15E6138}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE58F54F-9F5F-4453-9D1D-3933511FF954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE58F54F-9F5F-4453-9D1D-3933511FF954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE58F54F-9F5F-4453-9D1D-3933511FF954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE58F54F-9F5F-4453-9D1D-3933511FF954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B81F5FBA-B32F-469F-85BC-F881CE4C0AD7} = {D89A37E4-5729-496C-9693-4059EA9154D6}
+		{CE58F54F-9F5F-4453-9D1D-3933511FF954} = {D89A37E4-5729-496C-9693-4059EA9154D6}
+		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB} = {92865F0D-FD7B-4F9B-97F8-91898DB886EE}
+		{5081C879-2AEC-4B63-BB13-1868D15E6138} = {92865F0D-FD7B-4F9B-97F8-91898DB886EE}
 	EndGlobalSection
 EndGlobal
