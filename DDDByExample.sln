@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SupportContext", "Erp.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SupportContext.UnitTests", "Erp.SupportContext.UnitTests\Erp.SupportContext.UnitTests.csproj", "{5081C879-2AEC-4B63-BB13-1868D15E6138}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SalesContext.Migrations", "Erp.SalesContext.Migrations\Erp.SalesContext.Migrations.csproj", "{F7972D0F-A676-4B75-997D-9A48928A7844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erp.SupportContext.Migrations", "Erp.SupportContext.Migrations\Erp.SupportContext.Migrations.csproj", "{31FA7E15-9229-4736-86B0-11D5419F8EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5081C879-2AEC-4B63-BB13-1868D15E6138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7972D0F-A676-4B75-997D-9A48928A7844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7972D0F-A676-4B75-997D-9A48928A7844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7972D0F-A676-4B75-997D-9A48928A7844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7972D0F-A676-4B75-997D-9A48928A7844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FA7E15-9229-4736-86B0-11D5419F8EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FA7E15-9229-4736-86B0-11D5419F8EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FA7E15-9229-4736-86B0-11D5419F8EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FA7E15-9229-4736-86B0-11D5419F8EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +58,7 @@ Global
 		{CE58F54F-9F5F-4453-9D1D-3933511FF954} = {D89A37E4-5729-496C-9693-4059EA9154D6}
 		{AE744354-9D6A-4B9B-AE91-166CE1A42EBB} = {92865F0D-FD7B-4F9B-97F8-91898DB886EE}
 		{5081C879-2AEC-4B63-BB13-1868D15E6138} = {92865F0D-FD7B-4F9B-97F8-91898DB886EE}
+		{F7972D0F-A676-4B75-997D-9A48928A7844} = {D89A37E4-5729-496C-9693-4059EA9154D6}
+		{31FA7E15-9229-4736-86B0-11D5419F8EEC} = {92865F0D-FD7B-4F9B-97F8-91898DB886EE}
 	EndGlobalSection
 EndGlobal
